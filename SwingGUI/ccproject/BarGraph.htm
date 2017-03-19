@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Bar Chart using Fusion Tables API</title>
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1', { packages: ['corechart', 'bar'] });
+
+      function drawVisualization() {
+        data = google.visualization.drawChart({
+          containerId: 'visualization',
+          dataSourceUrl: 'http://www.google.com/fusiontables/gvizdata?tq=',
+          query: 'SELECT location, Count FROM 1s9jG_37gfpQ84aeFwZ2xcbCzID5p5moEmm5Px6Od',
+          chartType: 'ColumnChart',
+          options: {
+            title: 'Vulnerability of a Location to Crisis',
+	 
+            vAxis: {
+              title: 'Location'
+            },
+            hAxis: {
+              title: 'Count'
+            }
+          }
+        });
+      }
+
+      google.setOnLoadCallback(drawVisualization);
+    </script>
+  </head>
+  <body>
+    <div id="visualization" style="position: relative; height: 600px; width:1300px; top: 0px;"></div>
+  </body>
+</html>

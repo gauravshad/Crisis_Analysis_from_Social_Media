@@ -1,0 +1,58 @@
+-6.83295 107.60601,rain,	1
+-7.76127 110.39446,fire,	1
+-7.9637757 112.6195478,rain,	1
+14.01944444 99.53111111,rain,	1
+30.23149 -97.73572,accident,	1
+30.26713 -97.74316,accident,	1
+33.09181713 -117.26554511,rains,	1
+38.901 -77.04047,fire,	1
+40.24829 -75.34584,accident,	1
+51.74953679 0.50834097,accident,	1
+Agoura Hills  CA,rain,	1
+Alberton  South Africa,rain,	1
+Amherstburg  Ontario,rain,	1
+Amphoe Mueang Surat Thani  Surat Thani Province,rain,	1
+Anchorage  AK,bomb,	1
+Baltimore  MD,fire,	1
+California  USA,rain,	2
+Chicago  IL,attack,	1
+Chicago  IL,terrorist,	1
+East Midlands  England,rain,	1
+Felida  WA,rain,	1
+Florence  Tuscany,earthquake,	1
+Georgia  USA,murder,	1
+Greensboro  NC,gun,	1
+Houston  TX,bomb,	2
+Indiana  PA,fire,	1
+Irving  TX,bomb,	1
+Los Angeles  CA,fire,	1
+Middelburg  South Africa,fire,	1
+Moreno Valley  CA,bomb,	1
+Mumbai  India,murder,	1
+Pesaro  Marche,earthquake,	1
+Poplar  London,rain,	1
+Republic of Slovenia,crisis,	1
+Richland  WA,attack,	1
+Riverside  CA,bomb,	1
+Roma  Lazio,earthquake,	1
+Rome  Lazio,earthquake,	1
+Rosemead  CA,bomb,	1
+Rotterdam  Nederland,floods,	1
+San Marcos  CA,bomb,	1
+Sandton  South Africa,border,	1
+Sebokeng  South Africa,rain,	1
+South Africa,fire,	1
+Stockton  CA,rain,	1
+Sydney  New South Wales,rain,	1
+Texas  USA,fire,	1
+Texas  USA,rain,	1
+The Netherlands,fire,	1
+Thetford  England,rain,	1
+Tigard  OR,fire,	1
+Torano Nuovo  Abruzzo,earthquake,	1
+Tulsa  OK,murder,	2
+Wazirbad  Pakistan,blast,	1
+West Hartford  CT,fire,	1
+West Linn  OR,bomb,	1
+West Midlands  England,rain,	1
+Zeeland  MI,rain,	1

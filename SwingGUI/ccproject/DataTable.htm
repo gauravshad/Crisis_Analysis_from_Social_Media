@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Data Table using Fusion Tables API</title>
+
+    <link href="/apis/fusiontables/docs/samples/style/default.css"
+        rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1', { packages: ['table'] });
+
+      function drawTable() {
+        var query = "SELECT 'location' as Location, " +
+            "'Crisis' as Crisis, 'Count' as Count " +
+            'FROM 1YJ4qg1FBxURlhfTvxoo7R_kjFtZYzkIyZgOLKkCd';
+       
+        var queryText = encodeURIComponent(query);
+        var gvizQuery = new google.visualization.Query(
+            'http://www.google.com/fusiontables/gvizdata?tq=' + queryText);
+
+        gvizQuery.send(function(response) {
+          var table = new google.visualization.Table(
+              document.getElementById('visualization'));
+          table.draw(response.getDataTable(), {
+            showRowNumber: true
+          });
+        });
+      }
+
+      google.setOnLoadCallback(drawTable);
+    </script>
+  </head>
+  <body>
+   
+     <div id="visualization"></div>
+  </body>
+</html>
